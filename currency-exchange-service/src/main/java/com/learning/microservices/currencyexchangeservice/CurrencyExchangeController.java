@@ -13,6 +13,8 @@ import java.math.BigDecimal;
 public class CurrencyExchangeController {
 
     @Autowired
+    private CurrencyExchangeRepository repository;
+    @Autowired
     //set the value of the port
     private Environment environment;
 
@@ -21,7 +23,13 @@ public class CurrencyExchangeController {
             @PathVariable String from,
             @PathVariable String to) {
 
-        CurrencyExchange currencyExchange = new CurrencyExchange(1000L, from, to, BigDecimal.valueOf(60));
+//        CurrencyExchange currencyExchange = new CurrencyExchange(1000L, from, to, BigDecimal.valueOf(60));
+
+        CurrencyExchange currencyExchange = repository.findByFromAndTo(from, to);
+
+        if(currencyExchange == null) {
+            throw new RuntimeException("Unable to find data for " + from + " to " + to);
+        }
 
         //getting the property of environment
         String port = environment.getProperty("local.server.port");
