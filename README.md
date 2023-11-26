@@ -12,6 +12,10 @@
 **Description:** This microservice is designed to handle the conversion values between different currencies. Its primary purpose is to provide users with accurate and up-to-date exchange rates for various currency pairs.  
 **Endpoint:** [http://localhost:8000/currency-exchange/from/CAD/to/INR](http://localhost:8000/currency-exchange/from/CAD/to/INR)
 
+<div align="center">
+  <img src="https://github.com/AshutoshGunjal/Microservices-With-Spring/blob/main/Image3.png" alt="Image Alt Text">
+</div>
+
 ## Currency Conversion Service
 **Description:** This microservice is designed to handle the specific task of converting a specified quantity of one currency into another, based on the current exchange rate.  
 **Endpoints:**
@@ -19,6 +23,11 @@
 - [http://localhost:8100/currency-conversion-feign/from/CAD/to/INR/quantity/10](http://localhost:8100/currency-conversion-feign/from/CAD/to/INR/quantity/10)
 
 ## Eureka Naming Server
+
+<div align="center">
+  <img src="https://github.com/AshutoshGunjal/Microservices-With-Spring/blob/main/Image2.png" alt="Image Alt Text">
+</div>
+
 **Description:** It is the most important component in microservices architectures, offering a solution for service registration, discovery, and load balancing.
 - **Service Registration:** Naming server allows microservices to register themselves. So, when a service starts up, it registers with the Eureka server, providing information about its host, port, health indicators, and other metadata.
 - **Service Discovery:** Microservices that need to discover and communicate with other services can query the Eureka Naming Server to obtain the network location (host and port) of the required services. This enables dynamic discovery in a distributed system.
