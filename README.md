@@ -1,4 +1,4 @@
-# Microservices With Spring
+# MicroHub - Microservices
 
 <p align="center">
   <img src="https://github.com/AshutoshGunjal/Microservices-With-Spring/blob/main/Image1.png" alt="Image Alt Text">
