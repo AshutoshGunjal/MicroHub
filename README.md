@@ -1,6 +1,8 @@
 # Microservices With Spring
 
-![Image Alt Text](https://github.com/AshutoshGunjal/Microservices-With-Spring/blob/main/Image1.png)
+<p align="center">
+  <img src="https://github.com/AshutoshGunjal/Microservices-With-Spring/blob/main/Image1.png" alt="Image Alt Text">
+</p>
 
 ## Limits Service
 **Description:** Limits microservice defines a Java bean class with 'minimum' and 'maximum' properties, encapsulating the range limits for a specific functionality.  
