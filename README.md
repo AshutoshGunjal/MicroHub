@@ -1,5 +1,7 @@
 # MicroHub - Microservices
 
+MicroHub is a comprehensive microservices architecture designed to provide seamless integration and functionality for various components.
+
 <p align="center">
   <img src="https://github.com/AshutoshGunjal/Microservices-With-Spring/blob/main/Image1.png" alt="Image Alt Text">
 </p>
